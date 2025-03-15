@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url(/fonts/OpenSans-Regular.woff);
+    src: local("Open Sans"), url(../fonts/OpenSans-Regular.woff);
     font-style: normal;
     font-weight: normal;
     font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Open Sans";
-    src: local("Open Sans"), url(/fonts/OpenSans-Bold.woff);
+    src: local("Open Sans"), url(../fonts/OpenSans-Bold.woff);
     font-style: normal;
     font-weight: bold;
     font-display: swap;
@@ -54,7 +54,7 @@ h3 {
 .header {
     position: relative;
     padding: 28px 0 128px;
-    background: url(/images/banner-bg.jpg);
+    background: url(../images/banner-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -148,7 +148,6 @@ h3 {
 .wrap {
     display: flex;
     gap: 4px;
-    /* height: 320px; */
     margin-top: 28px;
 }
 
@@ -193,28 +192,25 @@ h3 {
 }
 
 .trend:nth-child(1) {
-    background-image: url(/images/trend1.jpg);
+    background-image: url(../images/trend1.jpg);
 }
 
 .trend:nth-child(2) {
-    background-image: url(/images/trend2.jpg);
+    background-image: url(../images/trend2.jpg);
 }
 
 .trend:nth-child(3) {
-    background-image: url(/images/trend3.jpg);
+    background-image: url(../images/trend3.jpg);
 }
 
 .trend:nth-child(4) {
-    background-image: url(/images/trend4.jpg);
+    background-image: url(../images/trend4.jpg);
 }
 
 .trend-card {
     flex: 1;
     position: relative;
-    /* width: 100%; */
-    /* height: 370px; */
     outline: 3px solid rgba(181, 159, 91, 0.6);
-    /* outline-offset: -20px; */
     z-index: 2;
     padding: 38px 34px;
     padding-bottom: 0;
@@ -403,7 +399,7 @@ h3 {
     height: 48px;
     border: none;
     background-color: #b59f5b;
-    background-image: url(/svg/search.svg);
+    background-image: url(../svg/search.svg);
     background-repeat: no-repeat;
     background-size: 18px 18px;
     background-position: center;
@@ -639,7 +635,6 @@ h3 {
 
 .shop-btn {
     height: 48px;
-    /* width: 140px; */
     width: 47%;
     font-family: inherit;
     text-transform: uppercase;
@@ -684,15 +679,15 @@ h3 {
 }
 
 .social-link-dribbble {
-    background-image: url(/svg/001-dribbble.svg);
+    background-image: url(../svg/001-dribbble.svg);
 }
 
 .social-link-pinterest {
-    background-image: url(/svg/001-pinterest.svg);
+    background-image: url(../svg/001-pinterest.svg);
 }
 
 .social-link-tumblr {
-    background-image: url(/svg/003-tumblr.svg);
+    background-image: url(../svg/003-tumblr.svg);
 }
 
 .copyright {
@@ -757,7 +752,7 @@ h3 {
     padding: 12px 18px 20px 20px;
     color: #9b9c9c;
     appearance: none;
-    background: #f4f7f6 url('/svg/form-arrows.svg') no-repeat;
+    background: #f4f7f6 url('../svg/form-arrows.svg') no-repeat;
     background-size: 10px;
     background-position-y: center;
     background-position-x: calc(100% - 10px);
@@ -788,13 +783,13 @@ input[type="radio"] {
     background-position: center;
     background-size: contain;
     vertical-align: baseline;
-    background-image: url(/svg/form-empty-circle.svg);
+    background-image: url(../svg/form-empty-circle.svg);
     margin-right: 4px;
     cursor: pointer;
 }
 
 input[type="radio"]:checked {
-    background-image: url(/svg/form-circle.svg);
+    background-image: url(../svg/form-circle.svg);
 }
 
 .radio-items label:not(:last-child) {
@@ -891,7 +886,6 @@ input[type="radio"]:checked {
         margin-top: 52px;
     }
     .post-picture {
-        /* min-width: auto; */
         width: 100%;
     }
     .post-description {
@@ -967,7 +961,6 @@ input[type="radio"]:checked {
     .copyright {
         margin-top: 45px;
     }
-    /*************/
     .search-form label {
         width: calc(100% - 48px);
     }
@@ -983,7 +976,7 @@ input[type="radio"]:checked {
     .header {
         padding-top: 31px;
         padding-bottom: 212px;
-        background: url(/images/banner-mobile.jpg);
+        background: url(../images/banner-mobile.jpg);
     }
     .container {
         padding-left: 15px;
