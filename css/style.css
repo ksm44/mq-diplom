@@ -821,7 +821,7 @@ input[type="radio"]:checked {
 @media (max-width: 768px) {
     .header {
         padding: 44px 0 115px;
-        background: url(/images/banner-bg-tablet.jpg);
+        background: url(../images/banner-bg-tablet.jpg);
     }
     .logo {
         width: 158px;
