@@ -885,7 +885,6 @@ input[type="radio"]:checked {
     }
     .post {
         flex-direction: column;
-        max-width: 390px;
         gap: 10px;
         margin-top: 52px;
         border-bottom: 4px solid #eeeeee;
@@ -988,6 +987,7 @@ input[type="radio"]:checked {
         padding-right: 15px;
     }
     .header-top {
+        position: relative;
         flex-direction: column-reverse;
     }
     .logo {
@@ -995,6 +995,9 @@ input[type="radio"]:checked {
         width: 75vw;
     }
     .menu-btn {
+        position: absolute;
+        top: -17px;
+        display: flex;
         align-self: end;
     }
     .menu {
@@ -1002,9 +1005,11 @@ input[type="radio"]:checked {
     }
     .caption {
         width: 100%;
-        margin-top: 27px;
+        margin-top: 30px;
         font-size: 26px;
         word-break: break-word;
+        line-height: 1.4;
+        letter-spacing: 0.1px;
     }
     .trends {
         padding-top: 39px;
@@ -1018,7 +1023,7 @@ input[type="radio"]:checked {
     .trend {
         width: 100%;
         padding: 18px;
-        min-height: 231px;
+        min-height: 229px;
     }
     .trend:nth-child(2) {
         padding-top: 73px;
@@ -1027,9 +1032,9 @@ input[type="radio"]:checked {
         margin-bottom: 22px;
     }
     .trend-card {
-        padding-top: 27px;
+        padding-top: 22px;
         padding-left: 20px;
-        padding-bottom: 22px;
+        padding-bottom: 29px;
         padding-right: 25px;
     }
     .trend-card .post-title {
@@ -1054,11 +1059,14 @@ input[type="radio"]:checked {
     .post {
         flex-wrap: wrap;
         gap: 7px;
-        margin-top: 48px;
+        margin-top: 40px;
         border-bottom: 4px solid #eeeeee;
     }
     .post-categories {
         padding-left: 0;
+    }
+    .post-picture {
+        width: 100%;
     }
     .post-description {
         width: 100%;
@@ -1081,7 +1089,6 @@ input[type="radio"]:checked {
     .sidebar {
         width: 100%;
         max-width: none;
-        border-top: 4px solid #eeeeee;
     }
     .sidebar-item {
         font-size: 16px;
@@ -1095,6 +1102,12 @@ input[type="radio"]:checked {
     .search-form {
         margin-top: 58px;
     }
+    .search-form label {
+        width: 100%;
+    }
+    .search-field {
+        width: 100%;
+    }
     .subscribe {
         margin-top: 39px;
     }
@@ -1106,9 +1119,6 @@ input[type="radio"]:checked {
     }
     .tags-label {
         font-size: 16px;
-    }
-    .tag-list {
-        justify-content: space-between;
     }
     .tag {
         padding: 5px 12px;
@@ -1142,6 +1152,10 @@ input[type="radio"]:checked {
     }
     .shop-item-card {
         padding-bottom: 5px;
+        padding-top: 32px;
+    }
+    .shop-item-title {
+        font-size: 17px;
     }
     .shop-item-card .post-text {
         letter-spacing: -0.09px;
@@ -1161,6 +1175,9 @@ input[type="radio"]:checked {
     }
     .feedback {
         width: 90%;
+    }
+    .copyright {
+        margin-top: 50px;
     }
 }
 
